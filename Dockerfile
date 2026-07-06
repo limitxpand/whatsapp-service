@@ -6,7 +6,6 @@ COPY package*.json ./
 RUN npm install --include=dev
 
 COPY . .
-RUN npm run build
 
 EXPOSE 4000
 
